@@ -1,2 +1,3 @@
-# chatgpt-ruby-executer
-I want ChatGPT to run languages other than Python.
+# ChatGPT Ruby Executer
+- [日本語](README-ja.md)
+
