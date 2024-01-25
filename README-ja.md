@@ -21,12 +21,12 @@ commit: https://github.com/ongaeshi/rubyonbrowser/commit/c8bc1fb9674e6cb48c2602c
 ## Step2: ChatGPT に Ruby on Browser の URL ルールを教える
 
 > [!NOTE]
-> 大文字を小文字に変換するRubyスクリプトを作成してください。
+> 大文字を小文字に変換するRubyスクリプトを作成してください。  
 > このRubyスクリプトをrubyonbrowser上で実行させたいです。
 > 
-> URL は https://rubyonbrowser.ongaeshi.me/
-> 後ろにクエリ文字列 ?q2= 
-> コードテキストを URLエンコーディングした文字列を q のパラメータに設定
+> - URL は https://rubyonbrowser.ongaeshi.me/
+> - 後ろにクエリ文字列 ?q2= 
+> - コードテキストを URLエンコーディングした文字列を q のパラメータに設定
 
 ## Step3: 日本語からスクリプトを生成させてそのまま Ruby on Broser の URL も作成する
 
