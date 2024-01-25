@@ -16,19 +16,17 @@
 - https://rubyonbrowser.ongaeshi.me を改造してzip圧縮かつURLエンコードされたパラメータを受け取れるようにする。
 - q2=xxxxxx で受け取れるようにする
 
+commit: https://github.com/ongaeshi/rubyonbrowser/commit/c8bc1fb9674e6cb48c2602c75f6e193b6d37f504
+
 ## Step2: ChatGPT に Ruby on Browser の URL ルールを教える
 
-```
-大文字を小文字に変換するRubyスクリプト。
-```
-
-```
-このRubyスクリプトをrubyonbrowser上で実行させたいです。
-
-URL は https://rubyonbrowser.ongaeshi.me/
-後ろにクエリ文字列 ?q= 
-コードテキストを zip 圧縮した文字列を q のパラメータに設定
-```
+> [!NOTE]
+> 大文字を小文字に変換するRubyスクリプトを作成してください。
+> このRubyスクリプトをrubyonbrowser上で実行させたいです。
+> 
+> URL は https://rubyonbrowser.ongaeshi.me/
+> 後ろにクエリ文字列 ?q2= 
+> コードテキストを URLエンコーディングした文字列を q のパラメータに設定
 
 ## Step3: 日本語からスクリプトを生成させてそのまま Ruby on Broser の URL も作成する
 
